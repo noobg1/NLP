@@ -1,4 +1,4 @@
-from sentiment_util import sentiment
+from sentimentEngine import sentiment
 from flask import Flask, request, Response
 import json
 import nltk.data
